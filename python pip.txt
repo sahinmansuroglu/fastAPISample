@@ -1,0 +1,20 @@
+pip install virtualenv
+
+virtualenv calismaOrtami
+calismaOrtami\Scripts\activate
+
+activate yeni
+pip3 install numpy scipy matplotlib scikit-learn jupyter
+
+pip3 install opencv-python
+pip install opencv-contrib-python
+
+pip3 install cmake
+pip3 install  dlib=19.20
+
+numpy hatası alırsan 
+
+pip3 uninstall numpy
+pip3 install numpy==1.19.3
+
+Mastering OpenCV 4 with Python
